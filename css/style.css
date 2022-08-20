@@ -10,22 +10,45 @@
     font-style: italic;
 } */
 
-.body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
-.footer{
-    margin-top: auto;
-}
 
 .logo img{
-    width: 23vw;
-    height: 12vh;
+    width: 18vw;
+    height: 10vh;
     min-width: 200px;
 }
 
+.navbar-nav{
+    --bs-nav-link-color: #000;
+    --bs-nav-link-hover-color: #307aff;
+}
+
+.hero{
+    height: 550px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/foto\ camion\ fondo.jpg);
+    background-size: cover;
+}
+
+
+
+.hero h1{
+    font-family: 'Open Sans', sans-serif;
+    padding: 170px 0 80px 0;
+    text-shadow: white 1.4px 1.4px;
+}
+
+
+.btn-outline-info {
+    --bs-btn-color: #307aff;
+    --bs-btn-border-color: #307aff;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #307aff;
+}
 
 .navbar-expand-md .navbar-collapse{
     flex-direction: column;
@@ -36,8 +59,19 @@
 
 .nav-link{
     font-size: 15px;
+    color: #000;
+    --bs-nav-link-hover-color: #307aff;
 }
 
+/* .body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer{
+    margin-top: auto;
+} */
 @media(max-width: 768px){
 
 }
