@@ -110,6 +110,24 @@
 }
 /* final contacto */
 
+@media(max-width: 1000px){
+
+    .main-gatitos{
+        min-height: 70vh;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .footer{
+        margin-top: auto;
+    }
+    
+    
+}
+
 
 @media(max-width: 768px){
     .container-quienes{
